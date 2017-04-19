@@ -1,0 +1,9 @@
+1 创建远程仓库
+2 准备本地仓库 进入项目文件夹，初始化仓库
+  git init  初始化仓库, 文件夹中会多个隐藏的。git目录，不要随便删除
+3 保存项目的所有更改
+  查看状态  git status
+    告诉你有个 a 文件需要 add (Untracked files:(use "git add <file>..." to include in what will be committed))
+  
+  保存更改 git add .
+  提交到本地仓库  git commit -m “我做了什么修改”
