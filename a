@@ -7,3 +7,22 @@
   
   保存更改 git add .
   提交到本地仓库  git commit -m “我做了什么修改”
+  (On branch master nothing to commit, working tree clean) 工作区 干净了
+
+4 提交到远程仓库
+  先配置 提交的username  email
+  (git config --global )
+
+sumpays-MBP:FirstTest sumpay$ git config --global user.name "zhuzl"
+sumpays-MBP:FirstTest sumpay$ git config --global user.email "zhu@qq.com"
+
+  关联远程仓库  ：
+git remote add origin https://github.com/zhilong2005/FristTest.git
+
+查看是否关联成功 git remote -v  
+origin	https://github.com/zhilong2005/FristTest.git (fetch)
+origin	https://github.com/zhilong2005/FristTest.git (push)
+
+
+5 提交到远程仓库
+git push -u origin master
